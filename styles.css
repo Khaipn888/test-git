@@ -1,0 +1,159 @@
+
+.header1 {
+    background: linear-gradient(15deg, #15567c, #80cdc5);
+    padding-bottom: 180px;
+}
+.header2{
+    background-color: #82cfc7;
+    height: 540px;
+    border-radius: 0px 0px 50px 50px;
+}
+.navigation .list a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.square{
+    font-size: 38px;
+    position: absolute;
+}
+.square-white{
+    left: 22%;
+    top: 20%;
+    --ionicon-stroke-width: 50px;
+}
+.square-div{
+    background-color: #539ba6;
+    width: 24.5px;
+    height: 25px;
+    left: 23.5%;
+    top: 28%;
+    border-radius: 3px;
+}
+.square-black{
+    left: 25%;
+    bottom: 20%;
+}
+.topic{
+    font-size: 45px ;
+    font-weight: bold;
+}
+.frame-avatar{
+    width: 50px;
+    height: 50px;
+}
+.icon-avatar{
+    font-size: 28px;
+}
+.discover-learn-enjoy{
+    font-size: calc(1.4rem + 3.15vw);
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+}
+.platform-for-creatives{
+    font-size: calc(1rem + 1vw);
+    color: hsl(201deg 72.46% 27.06%);
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    width: 60%;
+    height: 5.5vw;
+    padding-left: 30px;
+    padding-right: 100px;
+
+}
+.search:focus{
+    outline: none;
+}
+
+.search::placeholder{
+    font-size: 30px;
+    color: gray;
+    top: 50%;
+}
+.btn-search{
+    position: absolute;
+    border-radius: 50px;
+    background-color: #82cfc7;
+    right: 21%;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    width: 10.5rem;
+    height: 4rem;
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+.btn-search:hover{
+    background-color: #4fcabe;
+}
+.web-finance{
+    width: 74%;
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+}
+.web-design{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 38%;
+    padding: 40px;
+    margin-right: 3%;
+
+}
+.web-design-text{
+    width: 80%;
+}
+.web-design-image{
+    width: 320px;
+    margin-left: 20px;
+}
+.finance{
+    width: 59%;
+    border-radius: 20px;
+}
+.finance-bg{
+    background: linear-gradient(0deg, #15567cc9, #80cdc5c9);
+    position: absolute;
+    top: 0;
+}
+.finance-text{
+    padding: 40px;
+    position: absolute;
+    top: 0;
+}
+.btn-learnmore{
+    background-color: #82cfc7;
+    border-radius: 50px;
+    width: 10rem;
+    height: 3.5rem;
+    border: none;
+    color: white;
+    font-weight:500;
+    font-size: 24px;
+    margin-top: 25px;
+
+}
+.btn-learnmore:hover{
+    background-color: #4fcabe;
+}
+.share{
+    position: absolute;
+    bottom: -150px ;
+    color: white;
+    
+
+}
