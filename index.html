@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luyện HTML/CSS</title>
+    <title>HTML/CSS Bootstrap practice</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -70,30 +70,98 @@
       </div>
       <div class="header2"></div>
       <div class="web-finance">
-        <div class="web-design">
-            <div class="web-design-text">
-                <p class="fw-bold fs-3">Web Design</p>
-                <p class="fw-medium  fs-4 text-black-50 ">When you search for free CSS template, you will notice that TemplateMo is one of the best web sites.</p>
-                
-            </div>
-            <div>
-                <img src="../2.jpg" alt="" class="web-design-image">
-            </div>
-            
+        <div class="web-design position-relative">
+          <div class="web-design-text">
+            <p class="fw-bold fs-3">Web Design</p>
+            <p class="fw-medium fs-4 text-black-50">
+              When you search for free CSS template, you will notice that
+              TemplateMo is one of the best web sites.
+            </p>
+          </div>
+          <div>
+            <img src="../image/2.jpg" alt="" class="web-design-image" />
+          </div>
+          <div class="number p-1 rounded-2">14</div>
         </div>
-        <div class="finance overflow-hidden position-relative  ">
-            <img src="https://s40424.pcdn.co/in/wp-content/uploads/2023/03/functions-of-financial-management.png" alt="finance" class="w-100 h-100 ">
-            <div class="finance-bg h-100 w-100 "></div>
-            <div class="finance-text">
-                <p class="fw-bold fs-3 text-white">Finance</p>
-                <p class="fw-medium  fs-4 text-white">Topic Listening Template includes homapage, listing page and contact page. You can feel free for edit and adapt for your CMS requirements.</p>
-                <button class="btn-learnmore">Learn more</button>
-                <div class="share">Share</div>
+        <div class="finance overflow-hidden position-relative">
+          <div class="finance-text">
+            <p class="fw-bold fs-3 text-white">Finance</p>
+            <p class="fw-medium fs-4 text-white">
+              Topic Listening Template includes homapage, listing page and
+              contact page. You can feel free for edit and adapt for your CMS
+              requirements.
+            </p>
+            <button class="btn-learnmore">Learn more</button>
+            <div class="share-icon d-flex flex-row justify-content-between">
+              <div class="d-flex flex-row align-items-center">
+                <div class="share h3 fw-light">Share</div>
+                <div class="icon twister">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+                <div class="icon facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <div class="icon pinterest">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </div>
+              </div>
+              <div class="">
+                <ion-icon class="icon-bookmark" name="bookmark-outline" size="large"></ion-icon>
+              </div>
             </div>
-            
+          </div>
+          <div class="number p-1 rounded-2">25</div>
         </div>
       </div>
     </header>
+    <section class="">
+      <h1 class="d-flex flex-row justify-content-center mb-4 browse-topics">Browse Topics</h1>
+      <div class="nav-tab d-flex flex-row justify-content-center border-bottom-1 border-black ">
+        <div class="page active">Design</div>
+        <div class="page">Marketing</div>
+        <div class="page">Finance</div>
+        <div class="page">Music</div>
+        <div class="page">Education</div>
+      </div>
+      <div class="w-100 p-5 d-flex flex-row justify-content-around  ">
+        <div class="web-design position-relative col shadow-lg mx-3 ">
+          <div class="web-design-text">
+            <p class="fw-bold fs-3">Web Design</p>
+            <p class="fw-medium fs-4 text-black-50">
+              Topic Listening Templace based on Bootstrap 5
+            </p>
+          </div>
+          <div>
+            <img src="../image/2.jpg" alt="" class="web-design-image" />
+          </div>
+          <div class="number p-1 rounded-2">14</div>
+        </div>
+        <div class="web-design position-relative col shadow-lg mx-3 ">
+          <div class="web-design-text">
+            <p class="fw-bold fs-3">Graphic</p>
+            <p class="fw-medium fs-4 text-black-50">
+              Lorem Ipsum dolor sit amet consectetur
+            </p>
+          </div>
+          <div>
+            <img src="../image/3.jpg" alt="" class="web-design-image" />
+          </div>
+          <div class="number p-1 rounded-2">75</div>
+        </div>
+        <div class="web-design position-relative col shadow-lg mx-3 ">
+          <div class="web-design-text">
+            <p class="fw-bold fs-3">Logo Design</p>
+            <p class="fw-medium fs-4 text-black-50">
+              Lorem Ipsum dolor sit amet consectetur
+            </p>
+          </div>
+          <div>
+            <img src="../image/4.jpg" alt="" class="web-design-image" />
+          </div>
+          <div class="number p-1 rounded-2">14</div>
+        </div>
+      </div>
+    </section>
     <div class="block"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
