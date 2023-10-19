@@ -1,0 +1,52 @@
+$primary: #82cfc7;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$utilities: (
+  "w": (
+    property: width,
+    class: w,
+    values: (
+      5: 5%,
+      15: 15%,
+      20: 20%,
+      30: 30%,
+      35: 35%,
+      40: 40%,
+      45: 45%,
+      55: 55%,
+      60: 60%,
+      65: 65%,
+      70: 70%,
+      80: 80%,
+      85: 85%,
+      90: 90%,
+      95: 95%,
+    ),
+  ),
+);
+
+$custom-spacers: (
+  6: $spacer * 6,
+  7: $spacer * 7,
+  8: $spacer * 8,
+  9: $spacer * 9,
+  10: $spacer * 10,
+  11: $spacer * 11,
+  12: $spacer * 12,
+  13: $spacer * 13,
+  14: $spacer * 14,
+  15: $spacer * 15,
+);
+
+$custom-color: (
+  "color1": #085c81,
+  "color2": #82cfc7,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-color);
+
+$spacers: map-merge($spacers, $custom-spacers);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
